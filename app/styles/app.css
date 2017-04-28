@@ -1,5 +1,6 @@
 body {
   background-color: #8a95a8;
+  text-align: center;
 }
 
 .aboutHeader {
@@ -7,7 +8,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-
   color: white;
   font-family:monospace;
 }
@@ -38,6 +38,8 @@ body {
 .media-body {
   background-color: #969ba3;
   border-radius: 20px;
+  width: 800px;
+  padding-left: 20px;
 }
 
 .media {
@@ -52,7 +54,21 @@ body {
   border-color: #080808;
 }
 
+.banner {
+  background-color: #080808;
+	margin: 50px auto;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4;
+	font: 700 80px 'Bitter';
+  margin-top: -20px;
+}
 
+.banner h1 {
+  font-size: 125%;
+  color: white;
+}
 
 .btn {
   background-color: #222;
@@ -79,4 +95,33 @@ height: 450px;
 .viewPostContent {
   color: white;
   text-align: center;
+}
+
+.comments {
+  color: white;
+  margin-top: -10;
+}
+
+.commentSection {
+  color: white;
+  background-color: gray;
+}
+
+.commenter {
+  color: black;
+  padding-top: 5px;
+  text-align: left;
+}
+
+.commentName {
+  padding-top: 5px;
+}
+
+.commentForm {
+  background-color: #222;
+  color: white;
+}
+
+.commentNew {
+  text-decoration: underline;
 }

@@ -1,1 +1,46 @@
-{{view-post model=post}}
+
+<div class="containter">
+  <div class="well" >
+    <div class="postQuestion">
+        <div class="row">
+        <h2><strong>{{model.question}}</strong></h2>
+        <p>Asked by: {{model.name}}</p>
+      </div>
+    </div>
+    <div class="row viewPostimg">
+      <div class="col-md-offset-3 col-md-6">
+        <img  class="singlePostImg" src={{model.img}} alt="">
+      </div>
+    </div>
+    <div class="row viewPostContent">
+      <div class="col-md-offset-2 col-md-8">
+        <br>
+        <p>{{model.content}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="well commentSection">
+  <div class="row commentSection">
+    <div class="col-md-offset4 col.md-4">
+      <br>
+      <h2>Comments</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row comments">
+    <div class="col-md-offset-2 col-md-8">
+      {{#each model.comments as |comment|}}
+      <div class="media commentBox">
+        <div class="media-left commentName">
+          <p><strong class="commenterSaid">{{comment.user}} :</strong> </p>
+        </div>
+        <div class="media-body commenter">
+          {{comment.content}}
+        </div>
+      </div>
+      <br>
+      {{/each}}
+    </div>
+  </div>
+</div>
