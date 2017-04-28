@@ -1,0 +1,12 @@
+body {
+  background-color: #8a95a8;
+}
+
+.aboutHeader {
+  background-image: url('http://www.autographpen.com/wp-content/uploads/2016/03/banner-share.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  color: white;
+  font-family:monospace;
+}
