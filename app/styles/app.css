@@ -29,3 +29,35 @@ body {
   text-align: center;
   text-decoration: underline;
 }
+
+.mediaImg {
+  height: 60px;
+  border-radius: 12px;
+}
+
+.media-body {
+  background-color: #969ba3;
+  border-radius: 20px;
+}
+
+.media {
+  border-radius: 12x;
+}
+
+.well {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-radius: 20px;
+  background-color: #222;
+  border-color: #080808;
+}
+
+.btn {
+  background-color: #222;
+  border-color: #080808;
+  color: gray;
+}
+
+.btn:hover {
+  color: white;
+}

@@ -1,0 +1,24 @@
+
+<div class="row">
+  <div class="col-md-offset-2 col-md-8">
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        {{input value=name id="name" class="form-control"}}
+      </div>
+      <div class="form-group">
+        <label for="img">Image</label>
+        {{input value=img id="img" class="form-control"}}
+      </div>
+      <div class="form-group">
+        <label for="question">Your Question</label>
+        {{input value=question id="question" class="form-control"}}
+      </div>
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{textarea value=content id="content" rows="6" class="form-control"}}
+      </div>
+      <button class="btn" {{action 'savePost'}}>Submit Post</button>
+    </form>
+  </div>
+</div>
