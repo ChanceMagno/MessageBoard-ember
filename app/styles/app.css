@@ -52,6 +52,8 @@ body {
   border-color: #080808;
 }
 
+
+
 .btn {
   background-color: #222;
   border-color: #080808;
@@ -60,4 +62,21 @@ body {
 
 .btn:hover {
   color: white;
+}
+
+.postQuestion {
+  color: white;
+  text-align: center;
+}
+
+.viewPostimg img {
+  display: block;
+  margin: 0 auto;
+text-align: center;
+height: 450px;
+}
+
+.viewPostContent {
+  color: white;
+  text-align: center;
 }
