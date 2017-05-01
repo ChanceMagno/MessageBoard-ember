@@ -1,7 +1,20 @@
 # message-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A website made to help people interested with programming.
+
+### Description
+
+You are able to post a question and other people are able to post answers. you are also able to view other peoples questions and post answers to theirs.
+
+##specifacations
+
+| Behavior                   | Input Example     | Output Example    |
+|:---:|:---:|:---:|
+|user can create a post question|user: jim question: why this? img:(pic) content:explaining why question|post created and listed on homepage|
+|users can view question on own page|user clicks question|routes to page displaying only that question and all comments|
+|user can post comment on question|the answer is this|answer is displayed on that posts page|
+|user can edit comment|answer is that not this|updated comment to answer is that|
+
 
 ## Prerequisites
 
@@ -13,9 +26,24 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
+### Setup
+
+* Clone
+  * Open your terminal program
+    * On a Mac, this would be in the Applications/Utilities directory, and is called, "Terminal"
+    * Windows uses a Terminal program as well, but a Terminal with all the capabilities we'll require is not installed by default. Thankfully, we can easily download and install a Terminal program that does fit our needs.
+There are many options available, but we recommend using a terminal program called git bash. You can download this free program at [msysgit.github.io](https://ChanceMagno.github.io/message-board
+).
+  * Clone this track survey repository by typing, `git clone(https://ChanceMagno.github.io/message-board
+)`
+* Download
+  * Click [here](https://ChanceMagno.github.io/message-board
+/archive/master.zip) to download the repo
+  * Unzip the zipped repository
+
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://ChanceMagno.github.io/message-board>` this repository
 * `cd message-board`
 * `npm install`
 * `bower install`
